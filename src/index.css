@@ -1,13 +1,24 @@
-body {
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.done {
+  text-decoration: line-through rgb(255, 0, 0);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn-custom {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  background-color: rgb(16, 157, 176); ;
+  border: 0px;
+  color: #fff;
+}
+.btn-custom:hover{
+  background-color: rgb(10, 99, 111); ;
 }
